@@ -1,0 +1,36 @@
+header{
+    background-color: green;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+div {
+    margin-top: 5%;
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1.5%;
+  }
+  .ctiycard {
+      display: grid;
+      grid-template-rows: 4fr, 1fr;
+      box-shadow: gray;
+
+  }
+  .cityimage {
+      grid-column: 1;
+      grid-row: 1;
+      width: 75%;
+      height: 75%px;
+      vertical-align: middle;
+  }
+  .cityname {
+      grid-column: 1;
+      grid-row: 2;
+      text-align: center;
+  }
+ 
+ 
