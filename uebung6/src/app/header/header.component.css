@@ -1,0 +1,9 @@
+h1{
+    font-family: Verdana;
+    color: rgba(255, 95, 0);
+    background-color: rgba(175, 175, 175);
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 1%;
+    padding-left: 2%;
+}

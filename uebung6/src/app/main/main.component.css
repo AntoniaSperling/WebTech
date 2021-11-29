@@ -1,0 +1,23 @@
+section{
+    padding-left: 20%;
+}
+table, th, td{
+    width: 80%;
+    border:1px solid black;
+    border-collapse: collapse;
+}
+table{
+    box-shadow: 10px 20px 15px gray;
+    padding-left: 20%;
+}
+
+th{
+    background-color: rgb(118, 185, 0);
+    font-family: Verdana;
+    color: white;
+    font-weight: bold;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
