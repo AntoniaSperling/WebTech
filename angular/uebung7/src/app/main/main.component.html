@@ -1,0 +1,22 @@
+<section>
+    <button (click)="tableOnOff()" type=" button ">
+        {{ buttonText }}
+    </button>
+    <div *ngIf="!tableOn">Tabelle nicht zu sehen</div>
+    <table *ngIf="tableOn" class="table table-striped">
+        <thead>
+            <tr>
+                <th>Vorname</th>
+                <th>Nachname</th>
+                <th>E-Mail-Adresse</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let m of members; let i=index ">
+                <td>{{ m.forename }}</td>
+                <td>{{ m.surname }}</td>
+                <td>{{ m.email }}</td>
+            </tr>
+        </tbody>
+    </table>
+</section>

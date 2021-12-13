@@ -1,0 +1,41 @@
+section{
+    padding-left: 20%
+}
+table, th, td{
+    width: 80%;
+    border:1px solid black;
+    border-collapse: collapse;
+}
+table{
+    box-shadow: 10px 20px 15px gray;
+    padding-left: 20%;
+}
+
+th{
+    background-color: rgb(118, 185, 0);
+    font-family: Verdana;
+    color: white;
+    font-weight: bold;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+button{
+    background-color: rgb(118, 185, 0);
+    width: 80%;
+    box-shadow: 10px 20px 15px gray;
+    padding-left: 20%;
+    padding: 1%;
+    margin-bottom: 5%;
+    font-family: Verdana;
+    color: white;
+}
+div{
+    background-color: rgb(118, 185, 0);
+    width: 80%;
+    font-family: Verdana;
+    color: white;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}

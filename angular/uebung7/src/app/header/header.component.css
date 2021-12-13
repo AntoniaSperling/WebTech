@@ -1,0 +1,18 @@
+h1{
+    font-family: Verdana;
+    color: rgba(255, 95, 0);
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 1%;
+    padding-left: 2%;
+}
+section{
+    background-color: rgba(175, 175, 175);
+    text-align: center;
+    margin-bottom: 4%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+img {
+    width: 11%;
+}   
